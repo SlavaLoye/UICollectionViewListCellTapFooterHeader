@@ -34,5 +34,23 @@ class SectionFooterReusableView: UICollectionReusableView {
             }
         }
     }
+    
+    // MARK: - Initialization
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupViews()
+    }
+
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setupViews()
+    }
+    
+    // MARK: - Private Methods
+    
+    private func setupViews() {
+        // Perform any additional setup for the view here, if needed.
+    }
 }
 

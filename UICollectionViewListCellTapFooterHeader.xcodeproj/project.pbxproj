@@ -16,6 +16,11 @@
 		B08B6F002A74FB8C00DF1FC6 /* UICollectionViewListCellTapFooterHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08B6EFF2A74FB8C00DF1FC6 /* UICollectionViewListCellTapFooterHeaderTests.swift */; };
 		B08B6F0A2A74FB8C00DF1FC6 /* UICollectionViewListCellTapFooterHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08B6F092A74FB8C00DF1FC6 /* UICollectionViewListCellTapFooterHeaderUITests.swift */; };
 		B08B6F0C2A74FB8C00DF1FC6 /* UICollectionViewListCellTapFooterHeaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08B6F0B2A74FB8C00DF1FC6 /* UICollectionViewListCellTapFooterHeaderUITestsLaunchTests.swift */; };
+		B08B6F192A74FC3B00DF1FC6 /* SectionBackgroundDecorationViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08B6F182A74FC3B00DF1FC6 /* SectionBackgroundDecorationViewColor.swift */; };
+		B08B6F1B2A74FCC500DF1FC6 /* SectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08B6F1A2A74FCC500DF1FC6 /* SectionCollectionViewCell.swift */; };
+		B08B6F1D2A74FD6F00DF1FC6 /* SectionFooterReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08B6F1C2A74FD6E00DF1FC6 /* SectionFooterReusableView.swift */; };
+		B08B6F1F2A74FDB000DF1FC6 /* InSpotlightSectionFooterCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B08B6F1E2A74FDB000DF1FC6 /* InSpotlightSectionFooterCollectionReusableView.xib */; };
+		B08B6F212A74FF1900DF1FC6 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08B6F202A74FF1900DF1FC6 /* DetailCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		B08B6F052A74FB8C00DF1FC6 /* UICollectionViewListCellTapFooterHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewListCellTapFooterHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08B6F092A74FB8C00DF1FC6 /* UICollectionViewListCellTapFooterHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewListCellTapFooterHeaderUITests.swift; sourceTree = "<group>"; };
 		B08B6F0B2A74FB8C00DF1FC6 /* UICollectionViewListCellTapFooterHeaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewListCellTapFooterHeaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B08B6F182A74FC3B00DF1FC6 /* SectionBackgroundDecorationViewColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBackgroundDecorationViewColor.swift; sourceTree = "<group>"; };
+		B08B6F1A2A74FCC500DF1FC6 /* SectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		B08B6F1C2A74FD6E00DF1FC6 /* SectionFooterReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionFooterReusableView.swift; sourceTree = "<group>"; };
+		B08B6F1E2A74FDB000DF1FC6 /* InSpotlightSectionFooterCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InSpotlightSectionFooterCollectionReusableView.xib; sourceTree = "<group>"; };
+		B08B6F202A74FF1900DF1FC6 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,9 @@
 			children = (
 				B08B6EE82A74FB8B00DF1FC6 /* AppDelegate.swift */,
 				B08B6EEA2A74FB8B00DF1FC6 /* SceneDelegate.swift */,
-				B08B6EEC2A74FB8B00DF1FC6 /* ViewController.swift */,
+				B08B6F222A74FF7200DF1FC6 /* VC */,
+				B08B6F232A74FF8A00DF1FC6 /* Cells */,
+				B08B6F242A74FFA000DF1FC6 /* BackgroundView */,
 				B08B6EEE2A74FB8B00DF1FC6 /* Main.storyboard */,
 				B08B6EF12A74FB8C00DF1FC6 /* Assets.xcassets */,
 				B08B6EF32A74FB8C00DF1FC6 /* LaunchScreen.storyboard */,
@@ -125,6 +137,33 @@
 				B08B6F0B2A74FB8C00DF1FC6 /* UICollectionViewListCellTapFooterHeaderUITestsLaunchTests.swift */,
 			);
 			path = UICollectionViewListCellTapFooterHeaderUITests;
+			sourceTree = "<group>";
+		};
+		B08B6F222A74FF7200DF1FC6 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B08B6EEC2A74FB8B00DF1FC6 /* ViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B08B6F232A74FF8A00DF1FC6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B08B6F1A2A74FCC500DF1FC6 /* SectionCollectionViewCell.swift */,
+				B08B6F202A74FF1900DF1FC6 /* DetailCollectionViewCell.swift */,
+				B08B6F1C2A74FD6E00DF1FC6 /* SectionFooterReusableView.swift */,
+				B08B6F1E2A74FDB000DF1FC6 /* InSpotlightSectionFooterCollectionReusableView.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B08B6F242A74FFA000DF1FC6 /* BackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				B08B6F182A74FC3B00DF1FC6 /* SectionBackgroundDecorationViewColor.swift */,
+			);
+			path = BackgroundView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +272,7 @@
 			files = (
 				B08B6EF52A74FB8C00DF1FC6 /* LaunchScreen.storyboard in Resources */,
 				B08B6EF22A74FB8C00DF1FC6 /* Assets.xcassets in Resources */,
+				B08B6F1F2A74FDB000DF1FC6 /* InSpotlightSectionFooterCollectionReusableView.xib in Resources */,
 				B08B6EF02A74FB8B00DF1FC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08B6F1D2A74FD6F00DF1FC6 /* SectionFooterReusableView.swift in Sources */,
+				B08B6F212A74FF1900DF1FC6 /* DetailCollectionViewCell.swift in Sources */,
+				B08B6F192A74FC3B00DF1FC6 /* SectionBackgroundDecorationViewColor.swift in Sources */,
 				B08B6EED2A74FB8B00DF1FC6 /* ViewController.swift in Sources */,
 				B08B6EE92A74FB8B00DF1FC6 /* AppDelegate.swift in Sources */,
+				B08B6F1B2A74FCC500DF1FC6 /* SectionCollectionViewCell.swift in Sources */,
 				B08B6EEB2A74FB8B00DF1FC6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

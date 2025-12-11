@@ -1,1 +1,1 @@
-https://github.com/SlavaLoye/UICollectionViewListCellTapFooterHeader/wiki/UICollectionViewListCell-Tap-Footer-&--Header-&-UICollectionViewDiffableDataSource-&-SectionBackgroundDecorationView-&--Expand-(Swift)
+UICollectionViewListCell Tap Footer & Header & UICollectionViewDiffableDataSource & SectionBackgroundDecorationView & Expand (Swift) https://github.com/SlavaLoye/UICollectionViewListCellTapFooterHeader/wiki/UICollectionViewListCell-Tap-Footer-&--Header-&-UICollectionViewDiffableDataSource-&-SectionBackgroundDecorationView-&--Expand-(Swift)
